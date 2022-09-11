@@ -1,0 +1,49 @@
+.main{
+    display: flex;
+    width: 800px;
+    height: 440px;
+    flex-direction: column;
+    margin: auto;
+    border: 2px solid black;
+    background-color: rgb(243, 235, 226);
+    justify-items: center;
+    align-items: center;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin: 20px;
+}
+
+.navigation{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    justify-content: space-between;
+}
+
+.ibutton{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: rgb(238, 211, 35);
+    width: 120px;
+    height: 70px;
+    font-weight: 700;
+    margin: auto;
+}
+
+.ibutton:hover{
+    background-color: red;
+    color:white;
+    cursor: pointer;
+}
+
+.mySlides{
+    display: none;
+}
+
+.firstSlide{
+    display: block;
+}
